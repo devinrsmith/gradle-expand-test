@@ -1,3 +1,5 @@
+Produced to illustrate https://github.com/gradle/gradle/issues/7634
+
 `./gradlew generateMyResources`
 
 ```
