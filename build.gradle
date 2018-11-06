@@ -1,0 +1,6 @@
+task generateMyResources(type: Copy) {
+  from('my-resources')
+  into "${buildDir}/generated-my-resources"
+  expand WORLD: 'world'
+  expand MOON: 'moon'
+}
